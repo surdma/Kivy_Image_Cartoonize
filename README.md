@@ -16,8 +16,8 @@ Their are two main classes in this project the first class manage the cartoon pr
 
 ### Cartoonify Process
 
-1 I convert the frame from bgr2rgb 
-2 I converted the rgb frames to gray for easy processing
-3 to smooth the image I Icall the medianBlur which takes the gray and kernel_size as an arguments
-4 I threshold and remove the noise from the frame
-5 Then using the bitwise_and function i cartoonify the image.
+1. I convert the frame from bgr2rgb 
+2. I converted the rgb frames to gray for easy processing
+3. to smooth the image I Icall the medianBlur which takes the gray and kernel_size as an arguments
+4. I threshold and remove the noise from the frame
+5. Then using the bitwise_and function i cartoonify the image.
